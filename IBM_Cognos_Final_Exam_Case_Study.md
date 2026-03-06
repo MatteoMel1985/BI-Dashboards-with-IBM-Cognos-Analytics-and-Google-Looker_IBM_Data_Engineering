@@ -34,7 +34,8 @@ From the left navigation panel in Cognos:
 
 1. Click **Team content**
 2. Open **Samples**
-3. Navigate to:
+3. Navigate to:  
+
    - **By industry**
    - **Automotive**
    - **Data**
