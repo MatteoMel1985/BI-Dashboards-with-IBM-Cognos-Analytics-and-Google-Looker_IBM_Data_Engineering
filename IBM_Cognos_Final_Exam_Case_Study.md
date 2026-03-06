@@ -324,7 +324,7 @@ On the toolbar of the dashboard page:
 
 1. Click the **Share** icon
 
-### Step 9 — Use the Export Tab
+### Step 9: Use the Export Tab
 
 1. Open the **Export** tab
 2. Check the option:
@@ -335,7 +335,7 @@ Include filters
 
 3. Click **Export**
 
-### Step 10 — Save as PDF
+### Step 10: Save as PDF
 
 When the print window appears:
 
