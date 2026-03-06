@@ -26,7 +26,7 @@ Before building the dashboard, make sure that:
 - the sample path **Samples > By industry > Automotive > Data** is visible ***(if not, you can upload the dataset manually)***
 - the item **Auto group data module** is available
 
-## 3. Open the Dataset and Create the Dashboard
+## 3. ***Open the Dataset and Create the Dashboard***
 
 ### Step 1: Open Team Content
 
