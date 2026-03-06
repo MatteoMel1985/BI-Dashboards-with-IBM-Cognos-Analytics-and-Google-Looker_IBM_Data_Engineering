@@ -319,7 +319,7 @@ If all of these are present, your dashboard should satisfy the main grading crit
 
 Once both tabs are complete, export the dashboard.
 
-### Step 8 — Open the Share Menu
+### Step 8: Open the Share Menu
 
 On the toolbar of the dashboard page:
 
