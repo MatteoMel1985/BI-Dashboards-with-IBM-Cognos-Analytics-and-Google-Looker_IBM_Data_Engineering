@@ -1,4 +1,6 @@
 
+![Skills_Network](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/images/image.png)  
+
 # Case Study
 ## Building a Sales and Service Dashboard with Google Looker Studio
 ### IBM Data Engineering Professional Certificate – Final Assignment (Part 2B)
