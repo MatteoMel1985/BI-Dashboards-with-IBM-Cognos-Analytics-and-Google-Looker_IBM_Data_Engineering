@@ -2,12 +2,6 @@
 
 <h1 align="center">IBM Cognos Analytics - Final Assignment</h1>  
 
-This case study explains, step by step, how to complete the **Final Assignment – Part 2** of the IBM course **BI Dashboards with IBM Cognos Analytics and Google Looker** on Coursera.
-
-The objective of the exam is to create **two dashboard tabs** in IBM Cognos Analytics, using the sample dataset **Auto group data module**, and to export the final dashboard as a PDF for submission.
-
----
-
 ## 1. Understanding the Assignment
 
 The official assignment asks you to create **two dashboards** inside the same Cognos dashboard project:
@@ -19,9 +13,9 @@ The dataset is already available inside Cognos as **Auto group data module**, un
 
 `Team content > Samples > By industry > Automotive > Data`
 
-From there, you must right-click the data module and choose **Create Dashboard**.
+From there, you must right-click the data module and choose **Create Dashboard*  
 
----
+Alternatively, you can download the dataset [here](https://accelerator.ca.analytics.ibm.com/bi/?perspective=authoring&pathRef=.public_folders%2FIBM%2BAccelerator%2BCatalog%2FContent%2FDAT00142&id=i22898C2A4DD748F79E0FC2BD017F4FE8&objRef=i22898C2A4DD748F79E0FC2BD017F4FE8&action=run&format=HTML&cmPropStr=%7B%22id%22%3A%22i22898C2A4DD748F79E0FC2BD017F4FE8%22%2C%22type%22%3A%22reportView%22%2C%22defaultName%22%3A%22DAT00142%22%2C%22permissions%22%3A%5B%22execute%22%2C%22read%22%2C%22traverse%22%5D%7D).
 
 ## 2. What You Need Before Starting
 
@@ -29,16 +23,12 @@ Before building the dashboard, make sure that:
 
 - you are logged into your Cognos Analytics trial environment
 - you can access **Team content**
-- the sample path **Samples > By industry > Automotive > Data** is visible
+- the sample path **Samples > By industry > Automotive > Data** is visible ***(if not, you can upload the dataset manually)***
 - the item **Auto group data module** is available
-
-Once this is confirmed, you are ready to begin.
-
----
 
 ## 3. Open the Dataset and Create the Dashboard
 
-### Step 1 — Open Team Content
+### Step 1: Open Team Content
 
 From the left navigation panel in Cognos:
 
@@ -58,7 +48,6 @@ Find **Auto group data module**.
 
 Cognos will now ask you to choose a dashboard template.
 
----
 
 ## 4. Create the First Tab: Sales
 
@@ -88,9 +77,7 @@ Sales
 
 ## 5. Build the Sales Dashboard
 
-The Sales dashboard must contain **five visualizations**.
-
----
+The Sales dashboard must contain **five visualisations**.
 
 ### Panel 1 — Profit KPI
 
@@ -117,8 +104,6 @@ Your final result should look similar to:
 $78.4M
 ```
 
----
-
 ### Panel 2 — Quantity Sold KPI
 
 In the **second small rectangle**, create a KPI for **Quantity Sold**.
@@ -134,8 +119,6 @@ In the **second small rectangle**, create a KPI for **Quantity Sold**.
 2. Keep it as a single-value KPI
 
 This should show the total quantity sold across the dataset.
-
----
 
 ### Panel 3 — Quantity Sold by Model
 
@@ -155,8 +138,6 @@ In the **third small rectangle**, create a **bar chart** showing **Quantity Sold
 
 This panel should compare the quantity sold across the different car models.
 
----
-
 ### Panel 4 — Average Quantity Sold
 
 In the **fourth small rectangle**, create a KPI for **Average Quantity Sold**.
@@ -174,8 +155,6 @@ In the **fourth small rectangle**, create a KPI for **Average Quantity Sold**.
 3. Change aggregation from **Sum** to **Average**
 
 The result should display the average quantity sold rather than the total.
-
----
 
 ### Panel 5 — Profit by Dealer ID
 
@@ -197,8 +176,6 @@ In the **large lower rectangle**, create a **column chart** showing **Profit by 
 5. Sort the visualization in **ascending order**
 
 This is one of the most important grading points, so make sure the sort order is correct.
-
----
 
 ## 6. Create the Second Tab: Service
 
@@ -233,8 +210,6 @@ Service
 
 The Service dashboard must contain **four visualizations**.
 
----
-
 ### Panel 1 — Number of Recalls by Model
 
 In the **top-left panel**, create a **column chart** showing the **number of recalls by model**.
@@ -253,8 +228,6 @@ In the **top-left panel**, create a **column chart** showing the **number of rec
 
 This chart should compare recall volume across car models.
 
----
-
 ### Panel 2 — Customer Sentiment Treemap
 
 In the **top-right panel**, create a **treemap** comparing customer sentiment.
@@ -272,8 +245,6 @@ In the **top-right panel**, create a **treemap** comparing customer sentiment.
 3. Change the visualization type to **Treemap**
 
 This chart should clearly compare **Positive**, **Neutral**, and **Negative** customer reviews.
-
----
 
 ### Panel 3 — Quantity Sold per Month Compared to Profit
 
@@ -298,8 +269,6 @@ Typically, Cognos will show one measure as columns and the other as a line.
 
 This panel is meant to compare sales volume and profit over time.
 
----
-
 ### Panel 4 — Number of Recalls by Affected System and Model
 
 In the **bottom-right panel**, create a **heat map** showing the number of recalls by **Affected System** and **Model**.
@@ -319,8 +288,6 @@ In the **bottom-right panel**, create a **heat map** showing the number of recal
 4. Change the visualization type to **Heat map**
 
 This chart helps identify outliers, such as a particular model having many recalls in a specific system.
-
----
 
 ## 8. Check Your Dashboard Against the Expected Output
 
@@ -346,8 +313,6 @@ Before exporting the dashboard, verify the following carefully.
 - Panel 4 = **# of Recalls by Affected System and Model** as a **heat map**
 
 If all of these are present, your dashboard should satisfy the main grading criteria.
-
----
 
 ## 9. Export the Dashboard as PDF
 
@@ -383,117 +348,3 @@ Save as PDF
 2. Save the file locally, preferably in your **Downloads** folder
 
 This PDF is the file you will upload to Coursera.
-
----
-
-## 10. What If PDF Export Does Not Work?
-
-If Cognos does not let you export the dashboard as a PDF, the assignment allows a fallback solution.
-
-You can:
-
-- take screenshots of both dashboard tabs
-- submit those screenshots instead of the PDF
-
-So even if the export fails, you can still complete the assignment successfully.
-
----
-
-## 11. Main Grading Criteria
-
-According to the assignment, the dashboard is mainly graded on four points:
-
-1. **Have the correct tabs been created?**
-2. **Have you captured the correct metrics?**
-3. **Are the results correct?**
-4. **Have you used the appropriate visualizations?**
-
-This means that accuracy of structure and chart type matters more than cosmetic perfection.
-
----
-
-## 12. Practical Advice to Pass Smoothly
-
-Here are a few practical suggestions that help avoid mistakes during the exam:
-
-### 1. Rename the tabs immediately
-Do not leave the default tab names. Rename them to **Sales** and **Service** as soon as you create them.
-
-### 2. Double-check the chart type
-Cognos sometimes guesses a visualization automatically, but it may not be the one requested. Always verify the required chart type manually.
-
-### 3. Watch the aggregation
-For KPI cards, Cognos may default to **Sum**. In Panel 4 of Sales, you must explicitly switch **Quantity Sold** to **Average**.
-
-### 4. Verify sorting
-The **Profit by Dealer ID** chart must be sorted in **ascending order**. This is easy to forget.
-
-### 5. Keep the layout faithful to the instructions
-Even if another design looks prettier, use exactly the templates required by the assignment.
-
----
-
-## 13. Reference Outcome
-
-If your dashboard is correct, it should broadly resemble the following final structure:
-
-### Sales tab
-- Profit KPI in millions
-- Quantity Sold KPI
-- Quantity Sold by Model bar chart
-- Average Quantity Sold KPI
-- Profit by Dealer ID column chart
-
-### Service tab
-- # of Recalls by Model column chart
-- Customer Sentiment treemap
-- Profit and Quantity Sold by Month line/column chart
-- # of Recalls by Affected System and Model heat map
-
-If your final dashboard matches this structure, you are very likely to pass the assignment.
-
----
-
-## 14. Final Conclusion
-
-This final exam is not especially difficult once you understand that it is mainly a **dashboard construction task** rather than a theoretical test.
-
-To pass it successfully, focus on three things:
-
-- choosing the **correct template** for each tab
-- placing the **correct metric** into each panel
-- ensuring the **visualization type and formatting** match the instructions exactly
-
-Once that is done, export the dashboard as PDF and submit it.
-
----
-
-## 15. Suggested Repository Title
-
-If you want to publish this on GitHub as one of your case studies, a good title could be:
-
-```text
-How to Pass the IBM Cognos Analytics Final Assignment – Part 2 | Step-by-Step Case Study
-```
-
-Or, if you prefer a shorter version:
-
-```text
-IBM Cognos Final Dashboard Exam – Step-by-Step Guide
-```
-
----
-
-## 16. Suggested GitHub Intro Paragraph
-
-You may also use the following introductory paragraph at the top of your repository or README:
-
-> In this case study, I explain step by step how to complete the Final Assignment – Part 2 of the IBM Data Engineering course module *BI Dashboards with IBM Cognos Analytics and Google Looker*. The assignment requires the creation of two dashboards in IBM Cognos Analytics, named **Sales** and **Service**, using the sample **Auto group data module**. Below, I reconstruct the entire process in a precise and reproducible way.
-
----
-
-## 17. Suggested Tags
-
-```text
-IBM Data Engineering, Cognos Analytics, Dashboard, Business Intelligence, Coursera, Case Study, Data Visualization, KPI, Treemap, Heat Map
-```
