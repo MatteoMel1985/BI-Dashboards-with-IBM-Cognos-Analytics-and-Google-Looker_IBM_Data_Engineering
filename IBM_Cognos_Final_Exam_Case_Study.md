@@ -79,7 +79,7 @@ Sales
 
 The Sales dashboard must contain **five visualisations**.
 
-### Panel 1 — Profit KPI
+### Panel 1: Profit KPI
 
 In the **first small rectangle**, create a KPI for **Profit**.
 
@@ -104,7 +104,7 @@ Your final result should look similar to:
 $78.4M
 ```
 
-### Panel 2 — Quantity Sold KPI
+### Panel 2: Quantity Sold KPI
 
 In the **second small rectangle**, create a KPI for **Quantity Sold**.
 
@@ -120,7 +120,7 @@ In the **second small rectangle**, create a KPI for **Quantity Sold**.
 
 This should show the total quantity sold across the dataset.
 
-### Panel 3 — Quantity Sold by Model
+### Panel 3: Quantity Sold by Model
 
 In the **third small rectangle**, create a **bar chart** showing **Quantity Sold by Model**.
 
@@ -138,7 +138,7 @@ In the **third small rectangle**, create a **bar chart** showing **Quantity Sold
 
 This panel should compare the quantity sold across the different car models.
 
-### Panel 4 — Average Quantity Sold
+### Panel 4: Average Quantity Sold
 
 In the **fourth small rectangle**, create a KPI for **Average Quantity Sold**.
 
@@ -156,7 +156,7 @@ In the **fourth small rectangle**, create a KPI for **Average Quantity Sold**.
 
 The result should display the average quantity sold rather than the total.
 
-### Panel 5 — Profit by Dealer ID
+### Panel 5: Profit by Dealer ID
 
 In the **large lower rectangle**, create a **column chart** showing **Profit by Dealer ID**.
 
