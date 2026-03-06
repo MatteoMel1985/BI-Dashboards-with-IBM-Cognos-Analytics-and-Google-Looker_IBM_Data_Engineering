@@ -1,9 +1,6 @@
-# IBM Cognos Analytics Final Assignment – Part 2  
-## Step-by-Step Case Study Guide
+![Skills_Network](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/images/image.png)  
 
-<p align="center">
-  <img src="https://www.ibm.com/design/language/8e1b4f3c7e2f5d4f2e4f1a0c5f3d7e9a.svg" alt="IBM Cognos Analytics" width="220">
-</p>
+<h1 align="center">IBM Cognos Analytics - Final Assignment</h1>  
 
 This case study explains, step by step, how to complete the **Final Assignment – Part 2** of the IBM course **BI Dashboards with IBM Cognos Analytics and Google Looker** on Coursera.
 
