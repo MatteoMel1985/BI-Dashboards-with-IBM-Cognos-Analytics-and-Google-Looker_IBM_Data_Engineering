@@ -2,7 +2,7 @@
 
 <h1 align="center">IBM Cognos Analytics - Final Assignment</h1>  
 
-## 1. Understanding the Assignment
+## 1. ***Understanding the Assignment***
 
 The official assignment asks you to create **two dashboards** inside the same Cognos dashboard project:
 
@@ -17,7 +17,7 @@ From there, you must right-click the data module and choose **Create Dashboard*
 
 Alternatively, you can download the dataset [here](https://accelerator.ca.analytics.ibm.com/bi/?perspective=authoring&pathRef=.public_folders%2FIBM%2BAccelerator%2BCatalog%2FContent%2FDAT00142&id=i22898C2A4DD748F79E0FC2BD017F4FE8&objRef=i22898C2A4DD748F79E0FC2BD017F4FE8&action=run&format=HTML&cmPropStr=%7B%22id%22%3A%22i22898C2A4DD748F79E0FC2BD017F4FE8%22%2C%22type%22%3A%22reportView%22%2C%22defaultName%22%3A%22DAT00142%22%2C%22permissions%22%3A%5B%22execute%22%2C%22read%22%2C%22traverse%22%5D%7D).
 
-## 2. What You Need Before Starting
+## 2. ***What You Need Before Starting***
 
 Before building the dashboard, make sure that:
 
@@ -39,7 +39,7 @@ From the left navigation panel in Cognos:
    - **Automotive**
    - **Data**
 
-### Step 2 — Create a Dashboard from the Data Module
+### Step 2: Create a Dashboard from the Data Module
 
 Find **Auto group data module**.
 
@@ -49,11 +49,11 @@ Find **Auto group data module**.
 Cognos will now ask you to choose a dashboard template.
 
 
-## 4. Create the First Tab: Sales
+## 4. ***Create the First Tab: Sales***
 
 The first required dashboard is the **Sales** tab.
 
-### Step 3 — Choose the Correct Template for Sales
+### Step 3: Choose the Correct Template for Sales
 
 Select the tabbed template that contains:
 
@@ -62,7 +62,7 @@ Select the tabbed template that contains:
 
 This is the exact template required by the exam.
 
-### Step 4 — Rename the Tab
+### Step 4: Rename the Tab
 
 Once the dashboard opens:
 
@@ -75,7 +75,7 @@ Sales
 
 ---
 
-## 5. Build the Sales Dashboard
+## ***5. Build the Sales Dashboard***
 
 The Sales dashboard must contain **five visualisations**.
 
@@ -177,15 +177,15 @@ In the **large lower rectangle**, create a **column chart** showing **Profit by 
 
 This is one of the most important grading points, so make sure the sort order is correct.
 
-## 6. Create the Second Tab: Service
+## 6. ***Create the Second Tab: Service***
 
 Now create the second required dashboard tab.
 
-### Step 5 — Add a New Tab
+### Step 5: Add a New Tab
 
 Add another dashboard tab.
 
-### Step 6 — Choose the Correct Template for Service
+### Step 6: Choose the Correct Template for Service
 
 Select the **2 × 2 rectangle template**.
 
@@ -196,7 +196,7 @@ This template must contain:
 - bottom-left panel
 - bottom-right panel
 
-### Step 7 — Rename the Tab
+### Step 7: Rename the Tab
 
 Rename this tab to:
 
@@ -206,11 +206,11 @@ Service
 
 ---
 
-## 7. Build the Service Dashboard
+## ***7. Build the Service Dashboard***
 
 The Service dashboard must contain **four visualizations**.
 
-### Panel 1 — Number of Recalls by Model
+### Panel 1: Number of Recalls by Model
 
 In the **top-left panel**, create a **column chart** showing the **number of recalls by model**.
 
@@ -228,7 +228,7 @@ In the **top-left panel**, create a **column chart** showing the **number of rec
 
 This chart should compare recall volume across car models.
 
-### Panel 2 — Customer Sentiment Treemap
+### Panel 2: Customer Sentiment Treemap
 
 In the **top-right panel**, create a **treemap** comparing customer sentiment.
 
@@ -246,7 +246,7 @@ In the **top-right panel**, create a **treemap** comparing customer sentiment.
 
 This chart should clearly compare **Positive**, **Neutral**, and **Negative** customer reviews.
 
-### Panel 3 — Quantity Sold per Month Compared to Profit
+### Panel 3: Quantity Sold per Month Compared to Profit
 
 In the **bottom-left panel**, create a **line and column chart**.
 
@@ -289,7 +289,7 @@ In the **bottom-right panel**, create a **heat map** showing the number of recal
 
 This chart helps identify outliers, such as a particular model having many recalls in a specific system.
 
-## 8. Check Your Dashboard Against the Expected Output
+## 8. ***Check Your Dashboard Against the Expected Output***
 
 Before exporting the dashboard, verify the following carefully.
 
@@ -314,7 +314,7 @@ Before exporting the dashboard, verify the following carefully.
 
 If all of these are present, your dashboard should satisfy the main grading criteria.
 
-## 9. Export the Dashboard as PDF
+## 9. ***Export the Dashboard as PDF***
 
 Once both tabs are complete, export the dashboard.
 
